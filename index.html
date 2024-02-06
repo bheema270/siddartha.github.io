@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bheema Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="port.js"></script>
+</head>
+
+<body class="light-mode">
+    <header>
+        <div class="container">
+            <nav class="amma">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="dala">HI BHEEMA</h1>
+        <img src="here.png" width="50%" height="50%" style="margin-left:25%; border-radius: 50%;" id="dad">
+        <button onclick="toggleMode()" style="position: absolute; top:19px ; right : 17px">Toggle Mode</button>
+
+        <div class="blog-post" id="about">
+            <h2 style="c0lor: blue;">About</h2>
+            <p style="color: blue;">"Mannem Bheema siddartha is a passionate individual whose love for coding knows no bounds. With
+                a keen eye for detail and a knack for problem-solving, Bheema thrives in the world
+                of programming. Whether it's crafting elegant algorithms or diving into complex lines
+                of code</p>
+        </div>
+
+        <div class="blog-post" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>studied 10th in ghs atmakur</li>
+                <br>
+                <li>studied 12th in RGUKT Nuzvid </li><br>
+                <li>at present studying in IIIT Hyderabad</li>
+            </ul>
+        </div>
+
+        <div class="blog-post" id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Got the 1353 rank in RGUKT-CET</li>
+                <br>
+                <li>GOt inspire award at state level</li><br>
+                <li>Got seat in IIIT hyderabad through SPEC mode</li>
+            </ul>
+        </div>
+
+        <div class="blog-post" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <br>
+                <li>HTML</li><br>
+                <li>CSS</li><br>
+                <li>JAVASCRIPT</li><br>
+                <li>PYTHON</li><br>
+                <li>BASH</li>
+            </ul>
+        </div>
+
+        <div class="blog-post" id="blogs" style="height: 40vh;">
+            <h2>Blogs</h2>
+            <p>MY first blog <a href="blog1.html" style="color:black; text-decoration: none;">Blog1</a>.</p>
+            <p>MY second blog <a href="blog2.html" style="color:black; text-decoration: none;">Blog2</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <a href="https://www.instagram.com/siddartha_bheema/" target="_blank"><img id="jag"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0eoMyOrGITwdSqNMX_7q_KLcf9AJe96648lqcSqovFg&s"></a>&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/bheema270" target="_blank"><img id="deesh"
+                    src="data:image/png;base64,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"></a>
+            &nbsp; &nbsp;&nbsp;&nbsp;<a href="mailto:bheemasiddartha@gmail.com" target="_blank"><img id="amu"
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAAAD////u7u7t7e309PT5+fn39/fb29umpqb8/Pzx8fEwMDAtLS34+Pji4uLS0tIRERF2dnYhISG+vr49PT0YGBiTk5Pn5+d+fn6BgYFOTk7e3t7FxcVVVVXNzc1JSUljY2OdnZ2ysrKSkpI+Pj4kJCSJiYlgYGBtbW2srKy2tl5MAAAJ40lEQVR4nO2d23riIBCAQw6kxFNtrG6r1dpuu+37v+AmGkg0SIZDAmmZq/1Ync4vCcwMMASIShxWkrEm2hJh1hTRJkJbEtbkpKowcNIsT+gJPaF9szyhJ7xBGFXS0EWbGrqoNHRRcVNVEFPBSSUz1kRbEtxuan+P0+SCqoD1eULxSftZwVVTFLKmjDbF7WfFKVVyhGFDF21RNGswVZ7QE3pC+6o84W1dmkP8YKqCjMqMVJKwJtpCcLsppi0xa3JT1S/w2mpdtMsdcJd9bOEJPaF9szyhJ/xlWQyKGtb+EWtin8ftX5LjAbqpStvzNuFM9qrKxxae0BPaV+UJL3W5mRHuIGQzY0NXa95FNEXO5iJEaFP7Q7AmE6qKmL6c/5s/ViUNQiyU4hPz/M5dyTcFpxhB6LXhJH1fPQYuy+NqvdXIYqRL2wAgWab0VZaMLeJx8JWy3JwHIjnCxcG23RIyWZyGXynC1LbRkpKWiDKE+3vbJkvK/R5JEaZjAywQtzjqivFrQjKmd5DKA87gfbi2ba2SrFEd/ychI+R4bdn8wbaxSvIw53ptFLVBiP7YtlVR/kBjC2TbUmUBEqJv24Yqy1sCIxzrQxoETyywFBKGz7YNVZZn2FM6t22nutzPMwjh2DzSpmzjNmF7PhwzYRq358PWNgYsInzI56ldmecidyRFFc2M7dNo+aVRLOzDhx06b+tk3yNsTydrYts869Uh9iHSbpJStRP6Wyn7nsAvFRMGwWs8C7sW/Wh60MD64aWq+ElsnBHCYLXgR2IDrJAu/nbYZoYwCI7FT2uD8NhpmSnC4LV4o4clLJ7S9LXbMGOEQbBDALPMERaj/w5ilkHC4E/caZZBQpzBUptiQtBsUcvf/W2zOGMpbVIYS6MI7buGGAFh6/RCAvZpPgmacU89SJ6pmAm+VzYl5BNqUkpaqrS8tq85uVgSgyxjYdoiXDC6ULX5AlvE89rYC6Lkl96huPcV0jcJe1KO561HGHxtENcsQ4QhiuAd2A9hEMz7IyxGqu1EypheCIMjvjDLHGGEsWxCpR/C4HnTDyHZSOdTeiIM7o/mCYvRUCHz3hdh4eFEpgnJ/FXBDh6hoSzGZGF0PgzRbqViBm8+ZP9i/6eYp1nGLVXKm0JjrLjCnrZUcXYqqBIGq+21KlXPG22VOjAwG1vw5GiCMIqT7kjXFmHwstEnJPMXdQN6JwymuR5h8ebmHxp/v3/CIqRKdAiTUMoNtUIYPC8utgRIEZLOZJoLhEHwzaZ1SUJ0p/unO7IYevNhQ1bF06YwH0ZycUQHIZsPW+kFYmBl5v7tvGlUotQDRm8G9vCkyRUNt2qEiPAvBg7lZw8Huke46McN0It5iUTeQMryaUy7JOEExcCs0GEvJrw4npyhHfAJ/YyR6JP6scW0+P8c6FIdwYQYkK8///k31Dfh5DQmASPvl3k9hIoIwV7MMit+MtJ/HyJ4+uuNbd4VEUK13ZFSW8+Ek+ozMfBXf8nOE5OAEKwqPs+gQzylpycLmGKYLE4//G3CBfCtXpPK+AFGmkp2wE38n6SAukkIH5npykcHYXu2aNVn6OhDtrEBQWewQ4r4pR6KHxOYTPvMEKsaISak6kVVI4Re25S5X6WrBXQjH3Ou1xaib+Bj8H2aMqkICemHlLMYU5oYOzuTBNgHLyHdUtckBA4xh3k5xEgT0pdBjxBBEw6TffXFmnA/hX31iE/nfW0RFq8ScD/x1+w0xjBC4BDzkFZ/0R4hSjq2uFA5lJtUKOEC+Hg/YXpg2yIhQTnM2sLDiauRBurF5Lx0wfB9GJHZP5jBhzkpCTPgWYd/mJvysUAYxfgOFr0+7or5Fhgo3d8lyDCh/HxICaMIpUDnawmNL1fphVUa8yFFDSW9ttaCETCkAg69yxm+tIpWjciGiZ4ahLUHuIfZDpI9OYddnIU6EKFOFuNmHyLJTQUC+Yrpa8QhHCp64hHGCXDAEcv9kYgWWweLnrgLt2irf5LheYuEy8k2+/C0+A70cG7KU6XqJuHgI83VBooMtkvylnzsalV2CDv6sNRDEvUz4MukqcrQU8pmRllCtuZeE1ZzM1E9GvZ9rYqz6aEzi3FtVbtqhHDdYopm4hoNpSRoAXRUL+TfAnXrxlhMSABVI5S8tpPUquKZ/G6fNQHW+ho0i3HWRd+ZhlkZyiWnxvyGKvq6W40teGZFCTT3f5KlQJWjhIUeAt/6Ktgy7jBhuW8EFuq+zjtVOUoYxQlk3viWPJziEOHpHEjXgPO4kz1+oxHjmyNspo/ehYBfJIGrGrQPefUZbvzwgiORD3kSy6iSIGSqJL22hud902u7drVQdGvAeY0kVSl5bRTVUGxxqYpUmw3XvCWYx6O0qtPDYzu24JhVnqxrb8f7SBVU9U+o0odlC26tGX8SNVWWY/ybZhUvXN60bJInwsKxoyRspuK+IhSpVoa0m4kSEiJ0PL+NH8fTNKeoysWRhhGiTWndpNpINBRh//PhRUi7Dt4JriY2JVXy86Fc1Ygpoh9L6Pfq+gyQKznQFqGrJklVHT6NbtUIOb+UV1OhLvRz+7yFWJVLsUU/Vec9oSf0hJ7QZULYbFFtgpSeLViUIUmoP1vIVY2YIvqxrlIPBqtGXDZ1rFvoVo3Q9tpUqkZcqHIxi3H52GnX1Xc4PjRE6GYWY0SEDvThz39Knc5ijIHQgT50PYuhPx92ELbnQ/YvkzsVaEsvt5I5sVOBPnaOed6e0BN6Qk/oCfUJf+p8KFc1YsouBxOlJViTRNUIsCoxoXbViKbXVn1v2JvlurMY16rG53n//Nji58eHPz+L8fMzUcO9h5pjaag2lg5IyOa1etmaTWKS9x/Iqeq5asR0a/l6i0JE5/j1q0a4Lv3WvnRBQLFFNuK7gurC1OK788Z83xOEMNI+JGlPnhCoDxOZMu9uyRuMMBvx3XlQwrFeLfeHcziFk8WIMjTaOywz3q3VFLVZn2G095BC77CMMjzGTjwQXi0LPmGEtyO8D7j0Z6B9WIQoY7zTWYowGt0dgWePFE5YIC70q/oOJ4cFkiUM4XVvHRB2a4EM4ek81jgYlyxm4hKymZG7vWC7XgFrG1qSx9V7mtRrIbxbq7sKQKBNfueu5EVA2C4U0VE14mrBKMxwUmeI2MIMrKnOIxGp78mqEi1j8W+Pp4T0HdXf2Gtwj7CcKn5soU3okCpP6Ak9oX1VnKoRBsdSF1SJ+5D5QEwXrc8oXerBnqoOr60S3U2hNlXd9ryNLmtaVOUJPaEntK/KE/4AQjcnMZPzIaTUQ4bbTYpVI4ZX1fZLeaUeDATmtlT9rtjCIbM8oSf0hPbN6jeL4UIa12hGWPUghLWqEbKqfoHXxp5qp9xlH1t4Qk9o3yxP6Al/FeF/BF9n05aY9EgAAAAASUVORK5CYII="></a>
+        </div>
+    </footer>
+</body>
+</html>
